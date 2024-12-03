@@ -20,34 +20,37 @@ This is a simple keylogger project that records keystrokes into a file named `ou
 1. Clone the repository:
    ```sh
    git clone git@github.com:Nightmares9108/keylogger.git
+   ```
+
 Navigate to the project directory:
 
+```sh
+	cd keylogger```
 
-cd keylogger
 Install the required Python libraries:
-
-
-pip install pynput
+```sh
+pip install pynput socket threading
+```
 Usage
 Ensure the output.txt file exists or will be created automatically.
 Run the main script:
+```sh
+python3 main.py
+```
 
-python main.py
-Project Structure
+# Project Structure
 detector.py: Module to detect keystrokes and record them into a file.
-send.py: Module to send the recorded data to a remote server.
-main.py: Main script to run the detector and send modules in parallel.
-.gitignore: File to ignore unnecessary files and directories for the Git repository.
-README.md: This file.
-Contributing
-Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a branch for your feature (git checkout -b feature/my-feature).
-Commit your changes (git commit -m 'Add my feature').
-Push to the branch (git push origin feature/my-feature).
-Open a Pull Request.
-License
+send.py: Module to send the recorded data to a remote server.
+
+main.py: Main script to run the detector and send modules in parallel.
+
+README.md: This file.
+
+#  Contributing
+## Contributions are welcome!
+
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
