@@ -1,0 +1,18 @@
+
+
+#les fichier et dossier a ignorée pendant le post
+
+# Ignorer le dossier venv
+venv/
+
+# Ignorer les fichiers de configuration spécifiques à l'utilisateur
+*.pyc
+__pycache__/
+
+# Ignorer les fichiers de configuration de l'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers de configuration de l'environnement
+.env
+
