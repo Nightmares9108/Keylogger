@@ -24,19 +24,22 @@ This is a simple keylogger project that records keystrokes into a file named `ou
 
 Navigate to the project directory:
 
-```sh
-	cd keylogger```
+   ```sh
+	cd keylogger
+   ```
 
 Install the required Python libraries:
-```sh
-pip install pynput socket threading
-```
+
+   ```sh
+  pip install pynput socket threading
+   ```
+
 Usage
 Ensure the output.txt file exists or will be created automatically.
 Run the main script:
-```sh
-python3 main.py
-```
+   ```sh
+  python3 main.py
+   ```
 
 # Project Structure
 detector.py: Module to detect keystrokes and record them into a file.
