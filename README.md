@@ -19,7 +19,7 @@ This is a simple keylogger project that records keystrokes into a file named `ou
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/monpseudo/Keylogger.git
+   git clone https://github.com/Nightmares9108/Keylogger
    ```
 
 Navigate to the project directory:
